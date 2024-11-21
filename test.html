@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Visibility Toggle</title>
+    <style>
+        .password-container {
+            position: relative;
+            width: 300px;
+        }
+        #show-password-btn {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            background-color: #f1f1f1;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="password-container">
+    <input type="password" id="password" placeholder="Enter password" style="width: 100%; padding: 8px;">
+    <button type="button" id="show-password-btn">Show</button>
+</div>
+
+<script>
+    const showPasswordBtn = document.getElementById('show-password-btn');
+    const passwordField = document.getElementById('password');
+
+    showPasswordBtn.addEventListener('click', function () {
+        // Toggle password visibility
+        if (passwordField.type === 'password') {
+            passwordField.type = 'text';
+            showPasswordBtn.textContent = 'Hide';
+        } else {
+            passwordField.type = 'password';
+            showPasswordBtn.textContent = 'Show';
+        }
+    });
+</script>
+
+</body>
+</html>
