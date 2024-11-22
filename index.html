@@ -29,6 +29,10 @@
 </head>
 
 <body>
+    <div class="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
     <div class="container">
         <div class="box">
             <div class="heading"></div>
@@ -183,6 +187,10 @@
             showPasswordBtn.textContent = 'Show';
         }
     });
+    window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            document.getElementById('content').style.display = 'block';
+        });
 </script>
 </body>
 
