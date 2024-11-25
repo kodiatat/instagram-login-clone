@@ -63,4 +63,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **GitHub:** [tejazmali](https://github.com/tejazmali)
 - **Website:** [Portfolio](https://tejasmali.vercel.app)
-```
