@@ -15,7 +15,7 @@ A simple Instagram login page clone built with HTML, CSS, and JavaScript for edu
 
 ## Demo
 
-[Live Demo](https://instagram-login-clone.vercel.app)
+[Live Demo](https://instagram-login-clone0.vercel.app)
 
 ## Screenshots
 
